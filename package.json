@@ -1,0 +1,28 @@
+{
+  "name": "image-genrator",
+  "version": "1.0.0",
+  "description": "image geanrator with open ai",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "author": "benzy",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benzy7/image-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Benzy7/image-generator/issues"
+  },
+  "homepage": "https://github.com/Benzy7/image-generator#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
